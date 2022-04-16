@@ -18,6 +18,7 @@ services:
         context: ./dummyFrontend #dummyFrontendはダミーのhtmlのみ返却します。
         dockerfile: Dockerfile
     mysql:
+      platform: linux/amd64
       build:
         context: ./localMysql
         dockerfile: Dockerfile
