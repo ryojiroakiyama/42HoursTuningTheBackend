@@ -1,0 +1,1 @@
+ALTER TABLE session ADD INDEX idx_value(value);
