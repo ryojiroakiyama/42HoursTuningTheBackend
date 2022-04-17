@@ -1,1 +1,1 @@
-ALTER TABLE record ADD INDEX idx_status(status);
+ALTER TABLE record ADD INDEX idx_status(status ASC, updated_at DESC);
