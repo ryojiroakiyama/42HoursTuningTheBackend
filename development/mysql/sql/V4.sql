@@ -1,0 +1,1 @@
+ALTER TABLE record_comment ADD INDEX idx_comment(linked_record_id, created_at DESC);
